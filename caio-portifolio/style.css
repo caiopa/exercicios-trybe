@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: relative;
+    background:linear-gradient(180deg, rgb(0, 0, 0), rgb(13, 13, 84), rgb(56, 68, 136)) no-repeat;
+        
+
+}
+
+
+
+header {
+    display: flex;
+    text-align:center;
+    border-bottom: solid 1px rgb(255, 251, 251);
+    justify-content: space-between;
+    padding:30px 50px;
+      
+    
+}
+
+.nav {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+a:hover {
+    color:red;
+}
+.nav a {
+    padding-left: 20px;
+}
+
+strong:hover {
+    position:relative;
+    color: rgb(204, 180, 40);
+    top:-2px;
+    
+    
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2em;
+    margin-top: 40px;
+
+}
+/* display: block;
+    margin-left: auto;
+    margin-right: auto */
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    line-height: 3rem;
+}
+h1#info {
+    margin-bottom: 15px;
+    color: white; 
+    text-shadow: rgb(204, 19, 19) 0.1em 0.1em 0.2em;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: monospace;
+
+    animation: 1s move;
+}
+
+
+p {
+    padding: 10px 0px 20px 0px;
+    font-style: italic;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+
+.tamanhoImg {
+    width: 50px;
+    height: 50px;
+    
+
+    
+}
+
+hr {
+    margin-top:20px
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px;
+    font-family: monospace;
+    font-style: italic;
+    
+}
+
+
+#fotoCaio {
+    height: 400px;
+    width: 400px;
+    border-radius:50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#fotoCaio:hover {
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(5px 20px 35px rgba(242, 9, 9, 0.5));
+    filter: drop-shadow(5px 20px 35px rgba(230, 158, 2, 0.5));
+}
+
+
+
+@keyframes move {
+    from {
+        left: 5%;
+    }
+    to {
+        left: 85%;
+    }
+}
+
+
+  /* referencia sites visitados
+
+  https://www.flaticon.com/ para icones
+  https://www.flaticon.com/ para transição mouse
+  http://www.codigoti.com.br/2018/10/css-hover-efeitos-de-transicoes-ao.html
+  
+  */
