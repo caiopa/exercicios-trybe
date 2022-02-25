@@ -1,0 +1,37 @@
+
+
+ol li:nth-child(even){
+    background-color: red;
+
+}
+
+ol li:nth-child(odd) {
+    background: green;
+    text-transform: uppercase;
+}
+
+.titulos {
+    color: red;
+}
+
+.titulos em {
+    font-size: 40px;
+    
+}
+
+li {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.linguagem li:not(:nth-child(n + 4)) {
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
+
+
